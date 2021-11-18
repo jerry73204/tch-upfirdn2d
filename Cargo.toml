@@ -1,0 +1,12 @@
+[package]
+name = "tch-upfirdn2d"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+anyhow = "1.0.45"
+torch-build = { version = "0.1.0", git = "https://github.com/jerry73204/tch-rs.git", rev = "f49dd38747c165ca33f7d85c940de6b89f5c6501" }
