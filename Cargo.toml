@@ -4,11 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-torch-sys = "0.6.1"
-tch = { version = "0.6.1", optional = true }
+torch-sys = "0.7.0"
+tch = { version = "0.7.0", optional = true }
 
 [build-dependencies]
-anyhow = "1.0.45"
+anyhow = "1.0.56"
 torch-build = { version = "0.1.0", optional = true }
 cc = { version = "1.0.73", optional = true }
 bindgen = { version = "0.59.2", optional = true }
